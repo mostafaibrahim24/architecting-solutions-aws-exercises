@@ -4,5 +4,5 @@
 - Decoupling solution components to maximize resilience
 - Have centralized monitoring and logging
 ### Proposed Solution:
-![image](https://github.com/mostafaibrahim24/architecting-solutions-aws-exercises/assets/78238174/a95f42fd-415e-4a95-b535-b67c2a1ab288)
+![image](https://github.com/mostafaibrahim24/architecting-solutions-aws-exercises/assets/78238174/be645d0a-f56a-46a0-abe2-34d49d77f5dc)
 
