@@ -6,7 +6,7 @@
 ### Proposed Solution:
 ![image](https://github.com/mostafaibrahim24/architecting-solutions-aws-exercises/assets/78238174/be645d0a-f56a-46a0-abe2-34d49d77f5dc)
 
-## Exercise 2 - Data analytics solution for a restaurants menus website
+## Exercise 2 - Data analytics solution for a menu website
 ### Requirements:
 - Provide HTTPS endpoint for data collection
 - Prefer using AWS managed services as there is shortage in staff
