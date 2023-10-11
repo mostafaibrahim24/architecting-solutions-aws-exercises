@@ -14,7 +14,7 @@
 - Have cross-region data replication and encryption
 - Use different storage classes to save on cost and encryption
 ### Proposed Solution:
-![image](https://github.com/mostafaibrahim24/architecting-solutions-aws-exercises/assets/78238174/59510fd1-03ec-4541-a440-90de9c51bbe8)
+![image](https://github.com/mostafaibrahim24/architecting-solutions-aws-exercises/assets/78238174/4dd1496c-cc0b-405d-84e3-05257f8b1e3b)
 - Firehose for data ingestion
 - S3, cross-region replication (CRR)
 - S3 intelligent tiering enabled
