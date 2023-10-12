@@ -14,9 +14,10 @@
 - Have cross-region data replication and encryption
 - Use different storage classes to save on cost and encryption
 ### Proposed Solution:
-![image](https://github.com/mostafaibrahim24/architecting-solutions-aws-exercises/assets/78238174/2e75b9be-21ae-4d77-9818-ab72bdba1838)
+![image](https://github.com/mostafaibrahim24/architecting-solutions-aws-exercises/assets/78238174/d7bd7b60-5474-473b-b727-a45774aa0bed)
 - Firehose for data ingestion
 - S3, cross-region replication (CRR)
 - S3 intelligent tiering enabled
+- Lambda to transform the data
 - Athena to have interactive query service that you can use to analyze data in S3 by using SQL and you pay only for the queries that you run
-- Choosing QuickSight over managed-grafana because of the shortage in staff and they already know how to use QuickSight and have a license
+- Choosing QuickSight over managed-grafana because of the shortage in staff and they already know how to use QuickSight
