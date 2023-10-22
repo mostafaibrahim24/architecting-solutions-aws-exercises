@@ -24,3 +24,4 @@
 
 ## Exercise 3 - Migrating workloads and Hybrid deployment
 ![image](https://github.com/mostafaibrahim24/architecting-solutions-aws-exercises/assets/78238174/32d94c07-8cdc-4e61-87af-05867969c77b)
+- RDS is multi-AZ
