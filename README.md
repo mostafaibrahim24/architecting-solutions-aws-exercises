@@ -21,3 +21,6 @@
 - Lambda to transform the data
 - Athena to have interactive query service that you can use to analyze data in S3 by using SQL and you pay only for the queries that you run
 - Choosing QuickSight over managed-grafana because of the shortage in staff and they already know how to use QuickSight
+
+## Exercise 3 - Migrating workloads and Hybrid deployment
+![image](https://github.com/mostafaibrahim24/architecting-solutions-aws-exercises/assets/78238174/32d94c07-8cdc-4e61-87af-05867969c77b)
