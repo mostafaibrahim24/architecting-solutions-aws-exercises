@@ -24,4 +24,6 @@
 
 ## Exercise 3 - Migrating workloads and Hybrid deployment
 ![image](https://github.com/mostafaibrahim24/architecting-solutions-aws-exercises/assets/78238174/32d94c07-8cdc-4e61-87af-05867969c77b)
-- RDS is multi-AZ
+- RDS in this diagram is a multi-AZ deployment of RDS
+
+## Exercise 4 - Organizing a chaotic prod situation into a manageable one of a start-up that creates and hosts webapps for customers
