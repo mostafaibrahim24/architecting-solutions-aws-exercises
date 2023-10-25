@@ -27,3 +27,8 @@
 - RDS in this diagram is a multi-AZ deployment of RDS
 
 ## Exercise 4 - Organizing a chaotic prod situation into a manageable one of a start-up that creates and hosts webapps for customers
+- Devise a plan for how to manage multiple AWS accounts
+- Create an account that users will initially sign in to
+- Configure single sign-on and centralized credentialing
+- Enforce configuration rules across AWS accounts and enforce config standards for newly created accounts
+- Centralized logging in a dedicated account
