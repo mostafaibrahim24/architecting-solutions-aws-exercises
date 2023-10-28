@@ -35,3 +35,8 @@
 
 ![image](https://github.com/mostafaibrahim24/architecting-solutions-aws-exercises/assets/78238174/7e48ec09-f931-415e-b7ed-165642b44bbe)
 
+- OUs for different units and also for different environments, applying SCPs accordingly
+- IAM identity center provides SSO across different accounts
+- Control tower to automate account provisioning, automating the process of launching stuff in the account using IaC and in our case service catalog will be one
+- Cloudtrail monitors and records account activity across our AWS infrastructure
+- Service catalog to create and manage pre-approved portfolios and products in an account (infrastructure vending machine for the devs)
