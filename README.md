@@ -32,3 +32,6 @@
 - Configure single sign-on and centralized credentialing
 - Enforce configuration rules across AWS accounts and enforce config standards for newly created accounts
 - Centralized logging in a dedicated account
+
+![image](https://github.com/mostafaibrahim24/architecting-solutions-aws-exercises/assets/78238174/7e48ec09-f931-415e-b7ed-165642b44bbe)
+
