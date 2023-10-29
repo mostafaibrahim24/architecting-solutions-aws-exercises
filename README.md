@@ -50,5 +50,5 @@ These components are currently running in the data center on physical servers. C
 
 ### Proposed Solution:
 ![image](./capstone.png)
-Graded: 8 out of 8
+- Graded: 8 out of 8
 
