@@ -1,5 +1,4 @@
 ## Exercise 1 - Migrating and refactoring orders service of an e-commerce app
-### Requirements:
 - Have managed scaling as much as possible
 - Decoupling solution components to maximize resilience
 - Have centralized monitoring and logging
@@ -7,7 +6,6 @@
 ![image](https://github.com/mostafaibrahim24/architecting-solutions-aws-exercises/assets/78238174/be645d0a-f56a-46a0-abe2-34d49d77f5dc)
 
 ## Exercise 2 - Data analytics solution for a menu website
-### Requirements:
 - Provide HTTPS endpoint for data collection
 - Prefer using AWS managed services as there is shortage in staff
 - Prefer services with per-usage billing, not per-time billing
@@ -23,6 +21,8 @@
 - Choosing QuickSight over managed-grafana because of the shortage in staff and they already know how to use QuickSight
 
 ## Exercise 3 - Migrating workloads and Hybrid deployment
+### Proposed Solution:
+
 ![image](https://github.com/mostafaibrahim24/architecting-solutions-aws-exercises/assets/78238174/32d94c07-8cdc-4e61-87af-05867969c77b)
 - RDS in this diagram is a multi-AZ deployment of RDS
 
@@ -32,7 +32,7 @@
 - Configure single sign-on and centralized credentialing
 - Enforce configuration rules across AWS accounts and enforce config standards for newly created accounts
 - Centralized logging in a dedicated account
-
+### Proposed Solution:
 ![image](https://github.com/mostafaibrahim24/architecting-solutions-aws-exercises/assets/78238174/7e48ec09-f931-415e-b7ed-165642b44bbe)
 
 - OUs for different functions/teams and also for different environments, applying SCPs accordingly
@@ -40,3 +40,16 @@
 - Control tower to automate account provisioning, automating the process of launching stuff in the account using IaC and in our case service catalog will be one
 - Cloudtrail monitors and records account activity across our AWS infrastructure
 - Service catalog to create and manage pre-approved portfolios and products in an account (infrastructure vending machine for the devs)
+
+## Capstone project
+Scenario: You are working for a customer that runs their workloads on premises. Your customer has two workloads:
+
+A three-tier architecture composed of a frontend (HTML, CSS, JavaScript), backend (Apache Web Server and a Java application), and database (MySQL). The three-tier application hosts a dynamic website that accepts user traffic from the internet.
+
+A data analytics workload that runs Apache Hadoop. The analytics workload analyzes a massive amount of data that stored on premises and it also uses visualization tools to derive insights.
+
+These components are currently running in the data center on physical servers. Currently, if a power outage occurred in the data center, all systems would be brought offline. Because of this issue (in addition to other benefits of the cloud), your customer wants to migrate all components to the cloud and, when possible, use AWS services to replace on-premises components.
+
+### Proposed Solution:
+![image](https://github.com/mostafaibrahim24/architecting-solutions-aws-exercises/assets/78238174/8b76db9e-efc8-4472-b152-1d8df7bd3697)
+
