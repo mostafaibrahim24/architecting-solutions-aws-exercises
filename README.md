@@ -3,7 +3,7 @@
 - Decoupling solution components to maximize resilience
 - Have centralized monitoring and logging
 ### Proposed Solution:
-![image](https://github.com/mostafaibrahim24/architecting-solutions-aws-exercises/assets/78238174/be645d0a-f56a-46a0-abe2-34d49d77f5dc)
+![image](./exercise-1.png)
 
 ## Exercise 2 - Data analytics solution for a menu website
 - Provide HTTPS endpoint for data collection
@@ -12,7 +12,7 @@
 - Have cross-region data replication and encryption
 - Use different storage classes to save on cost and encryption
 ### Proposed Solution:
-![image](https://github.com/mostafaibrahim24/architecting-solutions-aws-exercises/assets/78238174/d7bd7b60-5474-473b-b727-a45774aa0bed)
+![image](./exercise-2.png)
 - Firehose for data ingestion
 - S3, cross-region replication (CRR)
 - S3 intelligent tiering enabled
@@ -22,8 +22,7 @@
 
 ## Exercise 3 - Migrating workloads and Hybrid deployment
 ### Proposed Solution:
-
-![image](https://github.com/mostafaibrahim24/architecting-solutions-aws-exercises/assets/78238174/32d94c07-8cdc-4e61-87af-05867969c77b)
+![image](./exercise-3.png)
 - RDS in this diagram is a multi-AZ deployment of RDS
 
 ## Exercise 4 - Organizing a chaotic prod situation into a manageable one of a start-up that creates and hosts webapps for customers
@@ -33,8 +32,7 @@
 - Enforce configuration rules across AWS accounts and enforce config standards for newly created accounts
 - Centralized logging in a dedicated account
 ### Proposed Solution:
-![image](https://github.com/mostafaibrahim24/architecting-solutions-aws-exercises/assets/78238174/7e48ec09-f931-415e-b7ed-165642b44bbe)
-
+![image](./exercise-4.png)
 - OUs for different functions/teams and also for different environments, applying SCPs accordingly
 - IAM identity center provides SSO across different accounts
 - Control tower to automate account provisioning, automating the process of launching stuff in the account using IaC and in our case service catalog will be one
@@ -51,5 +49,5 @@ A data analytics workload that runs Apache Hadoop. The analytics workload analyz
 These components are currently running in the data center on physical servers. Currently, if a power outage occurred in the data center, all systems would be brought offline. Because of this issue (in addition to other benefits of the cloud), your customer wants to migrate all components to the cloud and, when possible, use AWS services to replace on-premises components.
 
 ### Proposed Solution:
-![image](https://github.com/mostafaibrahim24/architecting-solutions-aws-exercises/assets/78238174/8b76db9e-efc8-4472-b152-1d8df7bd3697)
+![image](./capstone.png)
 
